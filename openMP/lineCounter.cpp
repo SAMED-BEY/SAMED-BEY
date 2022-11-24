@@ -8,7 +8,7 @@ g++ -o linecounter -fopenmp lineCounter.cpp -lboost_filesystem
 
 openMP( paralel programlama ) ve boost kullanilarak yapilmistir.
 
-Amaç : klasör içindeki txt dosyalarının ( hepsi txt olmak şartıyla ) toplam satır sayısını getiren bir uygulamadır.
+Amaç : klasör içindeki tüm txt dosyalarının ( hepsi txt olmak şartıyla ) toplam satır sayısını getiren bir uygulamadır.
 
         ./linecounter <txt_path>
 ornek : ./linecounter /home/samed/Masaüstü/txt_dosya
