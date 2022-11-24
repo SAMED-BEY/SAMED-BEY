@@ -1,15 +1,6 @@
 /*
-SAMED CALIK 4.SORU YANITI
+SAMED CALIK
 
-Linux uzerinde derlenmistir.
-asagida oldugu gibi derlyebiirsiniz
-
-openMP( paralel programlama ) ve boost kullanilarak yapilmistir.
-
-g++ -o linecounter -fopenmp 4.cpp -lboost_filesystem 
-
-        ./linecounter <txt_path>
-ornek : ./linecounter /home/samed/Masaüstü/txt_dosya
 */
 
 #include<iostream>
